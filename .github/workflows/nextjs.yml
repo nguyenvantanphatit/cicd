@@ -6,11 +6,9 @@ on:
   push:
     branches:
       - main
-    pull_request:
-      branches:
+  pull_request:
+    branches:
       - main
-      types:
-      - mered:
 jobs:
   Deploy-Preview:
     runs-on: ubuntu-latest
