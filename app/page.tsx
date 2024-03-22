@@ -4,7 +4,6 @@ export default function Home() {
   return (
     <>
    <div className="bg-gray-900 h-screen flex flex-col items-center justify-center text-white">
-  <h1 className="text-center">Sneaker</h1>
   <div className="mt-4 space-x-4">
     <a href="#" className="text-gray-400 hover:text-white">
       <i className="fab fa-facebook-f"></i>
